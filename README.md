@@ -1,4 +1,4 @@
-# OBISP
+# OBISIP
 During my internship, I worked on several projects that showcase creativity, technical proficiency, and a deep understanding of web development fundamentals. Below are the highlights of the projects I completed:
 
 1. Pizza Express Landing Page
