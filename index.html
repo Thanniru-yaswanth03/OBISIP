@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delivery App Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">PizzaExpress</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order">Order Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Hot & Fresh Pizzas Delivered to Your Doorstep!</h1>
+        <p>Craving a delicious pizza? Order now and enjoy the best pizzas in town!</p>
+        <button onclick="scrollToSection('order')">Order Now</button>
+    </section>
+
+    <section id="menu" class="section">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-card">
+                <h3>Margherita</h3>
+                <p>Classic cheese and tomato pizza.</p>
+                <p>$10</p>
+            </div>
+            <div class="menu-card">
+                <h3>Pepperoni</h3>
+                <p>Loaded with spicy pepperoni.</p>
+                <p>$12</p>
+            </div>
+            <div class="menu-card">
+                <h3>Veggie Delight</h3>
+                <p>A mix of fresh veggies and cheese.</p>
+                <p>$11</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>At PizzaExpress, we are passionate about delivering hot, fresh, and delicious pizzas made with the finest ingredients. Our mission is to make your pizza cravings satisfied at lightning speed!</p>
+    </section>
+
+    <section id="order" class="section">
+        <h2>Order Now</h2>
+        <form id="orderForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" id="address" placeholder="Delivery Address" required>
+            <select id="pizza">
+                <option value="Margherita">Margherita - $10</option>
+                <option value="Pepperoni">Pepperoni - $12</option>
+                <option value="Veggie Delight">Veggie Delight - $11</option>
+            </select>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PizzaExpress. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
